@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_mic_white.xml" value="0.26296296296296295" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_next.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_next_circle.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_pause.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_pause_circle.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_play.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_play_circle.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_previous.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_previous_circle.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_repeat.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_repeat_selected.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_round_gray.xml" value="0.26296296296296295" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_round_microphone.xml" value="0.26296296296296295" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_round_record.xml" value="0.26296296296296295" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_shuffle_button.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_shuffle_selected.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/ic_stop_white.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/drawable/play_pause.xml" value="0.15572916666666667" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/layout/activity_main.xml" value="0.2546875" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/layout/activity_rec.xml" value="0.13958333333333334" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/layout/activity_record.xml" value="0.22" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/layout/item_record.xml" value="0.26875" />
+        <entry key="..\:/ConnectLabPodcast/app/src/main/res/layout/layout_player.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

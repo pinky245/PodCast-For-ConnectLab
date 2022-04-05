@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_centerInParent="true" />
+
+    <include
+        android:id="@+id/layoutPlayer"
+        layout="@layout/layout_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_round_microphone"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="20dp"
+            android:src="@drawable/microphone"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageRecord"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Record"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageImportFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_toEndOf="@+id/imageRecord"
+            android:background="@drawable/ic_round_microphone"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="20dp"
+            android:visibility="gone"
+            android:src="@drawable/file"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvImpFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageImportFiles"
+            android:layout_marginStart="55dp"
+            android:layout_toEndOf="@+id/tvRecord"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Import Files"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
